@@ -1,0 +1,15 @@
+.card__button {
+    align-self: center;
+    color: var(--garnet);
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    padding: .75rem 2rem;
+    width: 100%;
+    transition: .5s ease-in-out;
+}
+
+.card__button:hover {
+    color: #FFF;
+    background-color: var(--garnet);
+}

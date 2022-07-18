@@ -1,0 +1,19 @@
+
+.card__alert {
+    color: #FFF;
+    border-radius: 100px;
+    display: inline-block;
+    padding: .7rem 1.5rem;
+    text-transform: uppercase;
+    font-family: var(--montserrat);
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+.card__alert--success {
+    background-color: var(--green);
+}
+
+.card__alert--warning {
+    background-color: var(--yellow-alt);
+}

@@ -1,0 +1,64 @@
+:root {
+    --black: #000;
+    --garnet: #940c0c;
+    --pink-light-alt: #cb8b8b;
+    --garnet-dark: #7a0909;
+    --pink-light: #bc6464;
+    --gray: #bcbcbc;
+    --gray-dark: #666;
+    --green: #16a516;
+    --white: #FFF;
+    --yellow-alt: #e1b629;
+
+    --montserrat: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.button {
+    background-color: inherit;
+    border: 1px solid;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    max-width: 350px;
+    padding: 1rem 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.button--sticky {
+    background-color: var(--green);
+    border: none;
+    border-radius: 100%;
+    color: var(--white);
+    position: fixed;
+    display: block;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 999;
+    width: 4rem;
+    height: 4rem;
+    padding: 10px;
+    transition: .2s ease-in-out;
+}
+
+.button--sticky:hover {
+    background-color: #1b5c1b;
+}
+
+.more, .less {
+    color: var(--gray);
+    cursor: pointer;
+    border-bottom: 1px solid var(--gray);
+    display: inline-block;
+    padding-bottom: .5rem;
+}

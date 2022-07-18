@@ -1,0 +1,11 @@
+.worshipSet {
+    padding-top: 18rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 375px) {
+    .worshipSet {
+        padding-top: 16rem;
+    }
+}

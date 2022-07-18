@@ -1,0 +1,12 @@
+.header__link {
+    display: inline-block;
+    font-size: 1.1rem;
+    margin-bottom: 1.25rem;
+    margin-left: .7rem;
+    margin-right: .7rem;
+}
+
+.header__link a {
+    text-decoration: none;
+    /* color: aqua; */
+}

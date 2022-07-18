@@ -1,0 +1,11 @@
+.card__innerList {
+    color: #666;
+}
+
+.card__text--bold {
+    font-weight: bold;
+}
+
+.card__innerList li {
+    padding-bottom: 2px;
+}

@@ -1,0 +1,11 @@
+.worshipSet__title {
+    border-bottom: 3px solid var(--garnet-dark);
+    color: var(--garnet-dark);
+    display: inline-block;
+    font-family: var(--montserrat);
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+}
