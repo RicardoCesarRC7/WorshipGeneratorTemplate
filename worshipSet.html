@@ -1,102 +1,194 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width initial-scale=1.0">
 
-        <title>Home - Worship Generator</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
 
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-        <link rel="stylesheet" href="assets/css/reset.css">
-        <link rel="stylesheet" href="assets/libs/font-awesome/css/all.min.css">
-        <link rel="stylesheet" href="assets/css/custom.css">
-        <link rel="stylesheet" href="assets/css/header/header.css">
-        <link rel="stylesheet" href="assets/css/header/header-logo.css">
-        <link rel="stylesheet" href="assets/css/header/header-navigation.css">
-        <link rel="stylesheet" href="assets/css/header/header-link.css">
-        <link rel="stylesheet" href="assets/css/worshipSets/worshipSets.css">
-        <link rel="stylesheet" href="assets/css/worshipSets/worshipSet-title.css">
-        <link rel="stylesheet" href="assets/css/worshipSets/worshipSet-table.css">
-        <link rel="stylesheet" href="assets/css/worshipSets/worshipSet-cards.css">
-        <link rel="stylesheet" href="assets/css/card/card.css">
-        <link rel="stylesheet" href="assets/css/card/card-title.css">
-        <link rel="stylesheet" href="assets/css/card/card-conteudo.css">
-        <link rel="stylesheet" href="assets/css/card/card-text.css">
-        <link rel="stylesheet" href="assets/css/card/card-alert.css">
-        <link rel="stylesheet" href="assets/css/card/card-button.css">
-        <link rel="stylesheet" href="assets/css/card/card-innerList.css">
-        <link rel="stylesheet" href="assets/css/musicSet/musicSet.css">
-        <link rel="stylesheet" href="assets/css/musicSet/musicSet-title.css">
-        <link rel="stylesheet" href="assets/css/footer/footer.css">
-    </head>
-    <body>
-        <header class="header container">
-            <img src="assets/img/logo.png" alt="Worship Generator logo" class="header__logo">
-            <nav class="header__navigation">
-                <ul>
-                    <li class="header__link"><a href="index.html">Home</a></li>
-                    <li class="header__link"><a href="#">Programação</a></li>
-                    <li class="header__link"><a href="#">Música</a></li>
-                    <li class="header__link"><a href="#">Som & Transmissão</a></li>
-                    <li class="header__link"><a href="#">Membresia</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section class="worshipSet container">
-                <h1 class="worshipSet__title">Últimas Programações</h1>
+    <title>Programações - Worship Generator</title>
 
-                <div class="worshipSet__cards">
-                    <div class="card">
-                        <h3 class="card__title">Culto Dominical</h3>
-                        <article class="card__content">
-                            <p class="card__text"><em>Igreja Batista Esperança em Tatuapé</em></p>
-                            <p class="card__text">12/05/2022</p>
-                            <span class="card__alert card__alert--success">Hoje! <i class="fas fa-calendar-check"></i></span>
-                            <button class="card__button button">Ver detalhes</a>
-                        </article>
-                    </div>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/libs/font-awesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/header/header.css">
+    <link rel="stylesheet" href="assets/css/header/header-logo.css">
+    <link rel="stylesheet" href="assets/css/header/header-navigation.css">
+    <link rel="stylesheet" href="assets/css/header/header-link.css">
+    <link rel="stylesheet" href="assets/css/worshipSets/worshipSets.css">
+    <link rel="stylesheet" href="assets/css/worshipSets/worshipSet-title.css">
+    <link rel="stylesheet" href="assets/css/worshipSets/worshipSet-table.css">
+    <link rel="stylesheet" href="assets/css/worshipSets/worshipSet-cards.css">
+    <link rel="stylesheet" href="assets/css/card/card.css">
+    <link rel="stylesheet" href="assets/css/card/card-title.css">
+    <link rel="stylesheet" href="assets/css/card/card-conteudo.css">
+    <link rel="stylesheet" href="assets/css/card/card-text.css">
+    <link rel="stylesheet" href="assets/css/card/card-alert.css">
+    <link rel="stylesheet" href="assets/css/card/card-button.css">
+    <link rel="stylesheet" href="assets/css/card/card-innerList.css">
+    <link rel="stylesheet" href="assets/css/musicSet/musicSet.css">
+    <link rel="stylesheet" href="assets/css/musicSet/musicSet-title.css">
+    <link rel="stylesheet" href="assets/css/footer/footer.css">
+    <link rel="stylesheet" href="assets/css/input/input.css">
+    <link rel="stylesheet" href="assets/css/form/form.css">
+    <link rel="stylesheet" href="assets/css/form/form-title.css">
+    <link rel="stylesheet" href="assets/css/form/form-subtitle.css">
+    <link rel="stylesheet" href="assets/css/form/form-button.css">
+    <link rel="stylesheet" href="assets/css/form/form-table.css">
+    <link rel="stylesheet" href="assets/css/modal/modal.css">
+    
+</head>
+
+<body>
+    <header class="header container">
+        <img src="assets/img/logo.png" alt="Worship Generator logo" class="header__logo">
+        <nav class="header__navigation">
+            <ul>
+                <li class="header__link"><a href="index.html">Home</a></li>
+                <li class="header__link"><a href="#">Programação</a></li>
+                <li class="header__link"><a href="#">Música</a></li>
+                <li class="header__link"><a href="#">Som & Transmissão</a></li>
+                <li class="header__link"><a href="#">Membresia</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="worshipSet container">
+            <h1 class="worshipSet__title">Últimas Programações</h1>
+
+            <div class="worshipSet__cards">
+                <div class="card">
+                    <h3 class="card__title">Culto Dominical</h3>
+                    <article class="card__content">
+                        <p class="card__text"><em>Igreja Batista Esperança em Tatuapé</em></p>
+                        <p class="card__text">12/05/2022</p>
+                        <span class="card__alert card__alert--success">Hoje! <i
+                                class="fas fa-calendar-check"></i></span>
+                        <button class="card__button button">Ver detalhes</a>
+                    </article>
                 </div>
+            </div>
 
-                <ul class="worshipSet__cards">
-                    <li class="card">
-                        <h3 class="card__title">Culto Dominical</h3>
-                        <article class="card__content">
-                            <p class="card__text"><em>Igreja Batista Esperança em Tatuapé</em></p>
-                            <p class="card__text">12/05/2022</p>
-                            <span class="card__alert card__alert--warning">Nesta semana! <i class="fas fa-exclamation-circle"></i></span>
-                            <button class="card__button button">Ver detalhes</a>
-                        </article>
-                    </li>
-                    <li class="card">
-                        <h3 class="card__title">Culto Dominical</h3>
-                        <article class="card__content">
-                            <p class="card__text"><em>Igreja Batista Esperança em Tatuapé</em></p>
-                            <p class="card__text">12/05/2022</p>
-                            <button class="card__button button">Ver detalhes</a>
-                        </article>
-                    </li>
-                    <li class="card">
-                        <h3 class="card__title">Culto Dominical</h3>
-                        <article class="card__content">
-                            <p class="card__text"><em>Igreja Batista Esperança em Tatuapé</em></p>
-                            <p class="card__text">12/05/2022</p>
-                            <button class="card__button button">Ver detalhes</a>
-                        </article>
-                    </li>
-                </ul>
-                <a class="more">Ver mais</a>
-                <!-- <a class="less">Ver menos</a> -->
-            </section>
+            <ul class="worshipSet__cards">
+                <li class="card">
+                    <h3 class="card__title">Culto Dominical</h3>
+                    <article class="card__content">
+                        <p class="card__text"><em>Igreja Batista Esperança em Tatuapé</em></p>
+                        <p class="card__text">12/05/2022</p>
+                        <span class="card__alert card__alert--warning">Nesta semana! <i
+                                class="fas fa-exclamation-circle"></i></span>
+                        <button class="card__button button">Ver detalhes</a>
+                    </article>
+                </li>
+                <li class="card">
+                    <h3 class="card__title">Culto Dominical</h3>
+                    <article class="card__content">
+                        <p class="card__text"><em>Igreja Batista Esperança em Tatuapé</em></p>
+                        <p class="card__text">12/05/2022</p>
+                        <button class="card__button button">Ver detalhes</a>
+                    </article>
+                </li>
+                <li class="card">
+                    <h3 class="card__title">Culto Dominical</h3>
+                    <article class="card__content">
+                        <p class="card__text"><em>Igreja Batista Esperança em Tatuapé</em></p>
+                        <p class="card__text">12/05/2022</p>
+                        <button class="card__button button">Ver detalhes</a>
+                    </article>
+                </li>
+            </ul>
+            <a class="more">Ver mais</a>
+            <!-- <a class="less">Ver menos</a> -->
+        </section>
 
-            <button type="button" class="button button--sticky"><i class="fas fa-plus fa-lg"></i></button>
-        </main>
-        <footer class="footer container">
-            <img src="assets/img/logo.png" alt="Worship Generator logo" class="footer__logo">
-            <p class="footer__texto">Copyright &copy; Worship Generator - 2022</p>
-        </footer>
+        <button type="button" class="button button--sticky"><i class="fas fa-plus fa-lg"></i></button>
 
-        <script src="assets/libs/font-awesome/js/all.min.js"></script>
-    </body>
+        <section class="modal container" >
+            <button class="modal--back" type="button"><i class="fas fa-arrow-left"></i> Voltar</button>
+            <div class="modal__content">
+                <form id="programacaoForm" class="form">
+                    <h2 class="form__title">Nova Programação</h2>
+    
+                    <h3 class="form__subtitle">Informações básicas</h3>
+    
+                    <label for="eventoNome">Nome</label>
+                    <input id="eventoNome" class="" type="text" placeholder="Insira o nome do evento">
+    
+                    <label for="eventoHorario">Horário</label>
+                    <input id="eventoHorario" class="" type="text" placeholder="Insira o horário do evento">
+    
+                    <label for="eventoData">Data</label>
+                    <input id="eventoData" class="" type="text" placeholder="Insira a data do evento">
+    
+                    <label for="eventoLocal">Local</label>
+                    <input id="eventoLocal" class="" type="text" placeholder="Insira o local do evento">
+    
+                    <h3 class="form__subtitle">Momentos</h3>
+    
+                    <label for="momentoNome">Momento</label>
+                    <input type="text" id="momentoNome" placeholder="Insira o momento...">
+    
+                    <label for="momentoResponsavel">Responsável</label>
+                    <input type="text" id="momentoResponsavel" placeholder="Insira o responsável...">
+                    
+                    <button type="button" class="button form__button form__button--add">Adicionar Momento <i class="fas fa-plus"></i></button>
+    
+                    <table class="form__table">
+                        <thead>
+                            <tr>
+                                <th>Momento</th>
+                                <th>Responsável</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody class="">
+                            <tr>
+                                <td>Abertura</td>
+                                <td>Grupo de louvor</td>
+                                <td>
+                                    <button class="form__table--move" type="button"><i class="fas fa-arrow-up"></i></button>
+                                    <button class="form__table--move" type="button"><i class="fas fa-arrow-down"></i></button>
+                                    <button class="form__table--delete" type="button"><i class="fas fa-times"></i></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Avisos</td>
+                                <td>Pr. Ricardo</td>
+                                <td>
+                                    <button class="form__table--move" type="button"><i class="fas fa-arrow-up"></i></button>
+                                    <button class="form__table--move" type="button"><i class="fas fa-arrow-down"></i></button>
+                                    <button class="form__table--delete" type="button"><i class="fas fa-times"></i></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Mensagem</td>
+                                <td>Pr. Ricardo</td>
+                                <td>
+                                    <button class="form__table--move" type="button"><i class="fas fa-arrow-up"></i></button>
+                                    <button class="form__table--move" type="button"><i class="fas fa-arrow-down"></i></button>
+                                    <button class="form__table--delete" type="button"><i class="fas fa-times"></i></button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+    
+                    <button type="button" class="button form__button form__button--submit">Gerar Programação</button>
+                    <button type="button" class="button form__button form__button--cancel">Cancelar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer container">
+        <img src="assets/img/logo.png" alt="Worship Generator logo" class="footer__logo">
+        <p class="footer__texto">Copyright &copy; Worship Generator - 2022</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="assets/libs/font-awesome/js/all.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
 </html>

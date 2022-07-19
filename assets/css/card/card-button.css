@@ -13,3 +13,7 @@
     color: #FFF;
     background-color: var(--garnet);
 }
+
+.card__button:active {
+    background-color: var(--garnet-dark);
+}

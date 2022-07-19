@@ -1,0 +1,26 @@
+.modal {
+    background-color: var(--white);
+    max-width: 100%;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* height: 100vh; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    position: fixed;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    overflow-y: auto;
+}
+
+.modal--back {
+    border: none;
+    background-color: inherit;
+    float: left;
+    max-width: 30%;
+    text-align: start;
+}

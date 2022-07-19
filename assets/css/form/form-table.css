@@ -1,0 +1,27 @@
+.form__table {
+    /* border: 1px solid var(--gray); */
+    margin: 40px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.form__table th {
+    font-weight: bold;
+}
+
+.form__table tr, th, td {
+    border-bottom: 1px solid var(--gray);
+    padding: 8px;
+
+}
+
+.form__table--delete {
+    color: red;
+    border: none;
+    background-color: inherit;
+}
+
+.form__table--move {
+    border: none;
+    background-color: inherit;
+}
