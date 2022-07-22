@@ -1,0 +1,9 @@
+.worshipSet__subtitle {
+    text-align: left;
+    font-family: var(--montserrat);
+    font-weight: 700;
+    font-size: 1rem;
+    border-bottom: 1px solid var(--gray);
+    padding: 5px 0;
+    margin-bottom: 20px;
+}

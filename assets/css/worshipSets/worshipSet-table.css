@@ -1,17 +1,23 @@
 .worshipSet__table {
-    border: 1px solid var(--gray);
+    border-bottom: 1px solid var(--gray);
     padding: 40px;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.worshipSet__table thead {
+    background-color: var(--garnet-dark);
 }
 
 .worshipSet__table th {
-    color: var(--garnet-dark);
+    color: var(--white);
     font-weight: bold;
     padding: 10px;
     text-align: center;
 }
 
 .worshipSet__table tr {
-    border: 1px solid var(--gray);
+    border-bottom: 1px solid var(--gray);
     line-height: 20px;
 }
 

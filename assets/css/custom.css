@@ -67,3 +67,13 @@ body {
     display: inline-block;
     padding-bottom: .5rem;
 }
+
+.padding-top-base {
+    padding-top: 16rem !important;
+}
+
+@media screen and (min-width: 375px) {
+    .padding-top-base {
+        padding-top: 16rem !important;
+    }
+}
