@@ -14,10 +14,23 @@
 }
 
 .form__button--cancel {
-    background-color: var(--garnet-dark);
+    background-color: var(--white);
+    border: 1px solid var(--black);
+    color: var(--black);
 }
 
 .form__button--add {
     background-color: rgb(32, 32, 78);
     margin-top: 20px;
+}
+
+.form__button--plus {
+    border: none;
+    background-color: inherit;
+}
+
+.form__button--minus {
+    color: red;
+    border: none;
+    background-color: inherit;
 }
